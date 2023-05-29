@@ -1,8 +1,8 @@
 export default function navbar() {
 	return (
-		<div className="navbar bg-base-100">
+		<div className="navbar bg-base-100 sticky top-0">
 			<div className="flex-none">
-				<a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+				<a className="btn btn-ghost normal-case  text-xl">Ebba</a>
 			</div>
 			<div className="flex-1">
 				<ul className="menu menu-horizontal px-1">
