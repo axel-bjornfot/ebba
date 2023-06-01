@@ -1,6 +1,6 @@
 export default function navbar() {
 	return (
-		<div className="navbar bg-base-100 sticky top-0">
+		<div className="navbar bg-base-200 top-0">
 			<div className="flex-none">
 				<a className="btn btn-ghost normal-case  text-xl">Ebba</a>
 			</div>
@@ -18,7 +18,7 @@ export default function navbar() {
 								<path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
 							</svg>
 						</a>
-						<ul className="p-2 bg-base-100">
+						<ul className="p-2 bg-accent">
 							<li>
 								<a>Submenu 1</a>
 							</li>
@@ -39,7 +39,7 @@ export default function navbar() {
 								<path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
 							</svg>
 						</a>
-						<ul className="p-2 bg-base-100">
+						<ul className="p-2 bg-accent">
 							<li>
 								<a>Submenu 1</a>
 							</li>
@@ -60,7 +60,7 @@ export default function navbar() {
 								<path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
 							</svg>
 						</a>
-						<ul className="p-2 bg-base-100">
+						<ul className="p-2 bg-accent">
 							<li>
 								<a>Submenu 1</a>
 							</li>
