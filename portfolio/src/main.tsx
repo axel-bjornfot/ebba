@@ -6,6 +6,7 @@ import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import Login from "./pages/loginPage.tsx";
 import "./index.css";
+import { AuthProvider } from "./contexts/AuthContext.tsx";
 
 const router = createBrowserRouter([
 	{
@@ -20,8 +21,10 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
 	<React.StrictMode>
-		<Navbar />
-		<RouterProvider router={router} />
-		<Footer />
+		<AuthProvider>
+			<Navbar />
+			<RouterProvider router={router} />
+			<Footer />
+		</AuthProvider>
 	</React.StrictMode>
 );
