@@ -1,13 +1,12 @@
-import Ebba from "../assets/ebba.640.jpg";
+import ClipLoader from "react-spinners/ClipLoader";
+
 export default function hero() {
 	return (
 		<>
 			<div className="hero min-h-screen bg-base-100">
 				<div className="hero-content flex-col lg:flex-row">
-					<img
-						src={Ebba}
-						className="max-w-sm rounded-lg shadow-2xl"
-					/>
+					<img src={""} className="max-w-sm rounded-lg shadow-2xl" />
+
 					<div>
 						<h1 className="text-5xl font-bold">
 							Ebba Christofferson
